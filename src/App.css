@@ -25,18 +25,18 @@ body{
 }
 
 
-a{
+.efectoLista{
   position: relative;
   letter-spacing: 0.5px;
   padding: 0 10px;
   margin: 10px;
   color: #a0a0a0 !important;
 }
-a:hover{
+.efectoLista:hover{
   color: #ffffff !important;
 }
 
-a:after{
+.efectoLista:after{
    content: "";
    position: absolute;
    background-color: #f09819;
@@ -47,7 +47,13 @@ a:after{
    transition: 0.3s;
 }
 
-a:hover:after{
+.efectoLista:hover:after{
 
   width: 100%;
+}
+a{
+  text-decoration: none;
+  text-decoration-style: none;
+  list-style: none;
+  color: inherit
 }
