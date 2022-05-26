@@ -15,10 +15,10 @@ export const Navbar = () => {
           <a class="nav-link efectoLista"  aria-current="page" href="#">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link efectoLista" href="#">About</a>
+          <a class="nav-link efectoLista" href="#sobreMi">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link efectoLista" href="#">Skills</a>
+          <a class="nav-link efectoLista" href="#Skills">Skills</a>
         </li>
         <li class="nav-item">
           <a class="nav-link efectoLista" href="#">Proyectos</a>

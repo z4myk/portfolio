@@ -44,7 +44,7 @@ body{
    width: 0;
    left: 0;
    bottom: 0px;
-   transition: 0.3s;
+   transition: 0.4s;
 }
 
 .efectoLista:hover:after{
@@ -55,5 +55,41 @@ a{
   text-decoration: none;
   text-decoration-style: none;
   list-style: none;
-  color: inherit
+  color: inherit;
+}
+
+
+.glass{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 30px;
+  width: 400px;
+  border:1px solid #f09819;
+
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.logoSkill{
+  width: 50px;
+}
+
+.javascript{
+  width: 70px;
+}
+.firebase{
+  width: 130px;
+}
+
+.photoshop{
+  width: 35px;
+}
+
+.mongo{
+  width: 150px;
+  padding: 5px;
+}
+
+.cinema{
+  width: 40px;
 }
