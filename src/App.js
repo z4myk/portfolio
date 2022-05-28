@@ -116,7 +116,7 @@ function App() {
             <img  src={photoshop} className=" photoshop"  />
             <span className="mx-4">Photoshop</span>
             </div>  
-            <div className=" glass mb-3">
+            <div className=" glass mb-3 mb-5">
             <img  src={cinema} className="cinema"  />
             <span>Cinema 4D</span>
             </div>
@@ -124,7 +124,7 @@ function App() {
 
         </div>
         <section className="container">
-          <h2 className="my-4 mb-2 text-center" id="proyectos">Proyectos</h2>
+          <h2 className="my-5 mb-2 text-center" id="proyectos">Proyectos</h2>
           <div className="d-flex justify-content-around">
             <hr className="w-25"/>
             <hr className="w-25"/>
@@ -170,8 +170,34 @@ function App() {
         </div>
         </section>
         
-        <section>
-          
+        <section className="row"> 
+          <h2 className="text-center my-5 " id="contactame">Contáctame</h2>
+          <div className="d-flex justify-content-around">
+        <hr className="w-25"/>
+        <hr className="w-25"/>
+        </div>
+        <div className="col-md-3">
+        <p>linkedin</p>
+        <p>Github</p>
+        <p>linkedin</p>
+        <p>linkedin</p>
+        </div>
+        <form className="container col-md-8">
+        <div className="mb-3">
+        <label for="exampleFormControlInput1" className="form-label">Nombre</label>
+        <input type="text" className="form-control bg-dark text-light inputForm shadow-none" id="exampleFormControlInput1" placeholder="Nombre" required/>
+        </div>
+        <div className="mb-3">
+        <label for="exampleFormControlInput1" className="form-label">Email</label>
+        <input type="email" className="form-control bg-dark inputForm shadow-none text-light" id="exampleFormControlInput1" placeholder="name@example.com" required />
+        </div>
+        <div className="mb-3 ">
+        <label for="exampleFormControlTextarea1" className="form-label">Mensaje</label>
+        <textarea className="form-control bg-dark text-light w-100 inputForm shadow-none" id="exampleFormControlTextarea1" rows="4" required></textarea>
+        </div>
+        <button className="btn btn-outline-success w-100">Enviar</button>
+        </form>
+        
         </section>
 
         {/* <div className="glass border-rounded ">
