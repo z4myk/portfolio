@@ -176,13 +176,16 @@ function App() {
         <hr className="w-25"/>
         <hr className="w-25"/>
         </div>
-        <div className="col-md-3">
-        <p>linkedin</p>
-        <p>Github</p>
-        <p>linkedin</p>
-        <p>linkedin</p>
+        <div className="col-md-3 col-sm-12 text-center">
+         <a target="_blank" href="https://www.linkedin.com/in/sebastianmosquera/" className="linka"><button class="botoncito w-100 my-5">Linkedin</button></a>
+        
+        <a target="_blank" href="https://github.com/z4myk" className="linka"><button class="botoncito w-100 my-5">Github</button></a> 
+        
+        <a href="mailto:sebimosquera@gmail.com" className="linka"><button class="botoncito w-100"> Email</button></a>
+ 
+
         </div>
-        <form className="container col-md-8">
+        <form className="container col-md-8 col-sm-12 my-3">
         <div className="mb-3">
         <label for="exampleFormControlInput1" className="form-label">Nombre</label>
         <input type="text" className="form-control bg-dark text-light inputForm shadow-none" id="exampleFormControlInput1" placeholder="Nombre" required/>
@@ -195,7 +198,8 @@ function App() {
         <label for="exampleFormControlTextarea1" className="form-label">Mensaje</label>
         <textarea className="form-control bg-dark text-light w-100 inputForm shadow-none" id="exampleFormControlTextarea1" rows="4" required></textarea>
         </div>
-        <button className="btn btn-outline-success w-100">Enviar</button>
+        <button className="botonProyecto">Enviar</button>
+        
         </form>
         
         </section>
