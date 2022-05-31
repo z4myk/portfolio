@@ -70,7 +70,7 @@ function App() {
         <hr className="w-25"/>
         </div>
         <div className="responsiveMobile">
-          <div className="d-flex flex-wrap justify-content-between mx-5 ">
+          <div className="d-flex flex-wrap justify-content-around mx-5 ">
             <div className="glass mb-3">
               <img  src={html} className=" logoSkill"  />
               <span className="mx-4">HTML5</span>
