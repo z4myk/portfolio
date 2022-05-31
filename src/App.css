@@ -6,6 +6,9 @@ body{
   background-color: #191a19 !important;
   scroll-behavior: smooth;
 }
+.about{
+  font-size: 20px;
+}
 
 .App {
   color: #f09819;

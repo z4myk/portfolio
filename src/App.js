@@ -79,8 +79,8 @@ function App() {
         <hr className="w-25"/>
         </div>
         
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium distinctio itaque nobis laudantium iste vel sit laborum amet commodi perspiciatis voluptatibus eius, sint fugit at excepturi aperiam vitae quam explicabo molestiae libero? Eveniet natus ipsam soluta distinctio veniam illo eaque quod obcaecati? Incidunt dolorum ad quae, quod quasi unde ipsa placeat amet doloremque neque inventore expedita facilis pariatur, eaque nihil distinctio explicabo tempore nulla illum veritatis quam sed deserunt hic officiis. Inventore, tempora optio quibusdam eius asperiores illum itaque neque accusamus error voluptates ratione vitae assumenda. Quis quo iste blanditiis unde doloribus rem ipsam dolorum dolor atque ipsum! Ipsum, velit.
+        <p className="about">
+          Hola! mi nombre es Sebastián Ariel Mosquera tengo 21 años soy un desarrollador de software apasionado por la tecnología, responsable, resiliente y autodidacta, motivado a seguir incrementando mis conocimientos para crecer profesionalmente, considero que la comunicación y el trabajo en equipo es esencial para poder crecer como desarrollador, aspiro a potenciar mis habilidades tecnicas y de liderazgo para en un futuro estar a cargo de un equipo y llevar adelante proyectos.
         </p>
       </section>
       <section className=" mb-5  container">
@@ -153,8 +153,8 @@ function App() {
               <img src={eccomerce} alt="tienda digital" className="w-100 imagenProyecto" />
               <p className="container my-2 text-light text-center">E-ccomerce con autenticación desarrollado con React, Bootstrap, y auth0</p>
               <div className="container">
-              <button className="botonProyecto mx-3"><a  target="_blank" href="https://github.com/z4myk/e-ccomerce-reactjs">Github</a></button>
-            <button className="botonProyecto"><a  target="_blank" href="https://eccomercesam.netlify.app/">Deploy</a></button>
+            <a  target="_blank" href="https://github.com/z4myk/e-ccomerce-reactjs"><button className="botonProyecto mx-3 text-light">Github</button></a>
+            <a  target="_blank" href="https://eccomercesam.netlify.app/"><button className="botonProyecto text-light">Deploy</button></a>
 
               </div>
             </div>
@@ -164,8 +164,8 @@ function App() {
             <img src={veterinarycrud} alt="tienda digital" className="w-100 imagenProyecto" />
               <p className="container my-2 text-light text-center">Sistema de gestión de turnos para veterinaria CRUD con autenticación creado con React Bootstrap y Auth0</p>
               <div className="container">
-              <button className="botonProyecto mx-3"><a  target="_blank" href="https://github.com/z4myk/crud-veterinary">Github</a></button>
-            <button className="botonProyecto"><a  target="_blank" href="https://veterinarycrud.netlify.app/">Deploy</a></button>
+              <a  target="_blank" href="https://github.com/z4myk/crud-veterinary"><button className="botonProyecto mx-3 text-light">Github</button></a>
+            <a  target="_blank" href="https://veterinarycrud.netlify.app/"><button className="botonProyecto text-light">Deploy</button></a>
               </div>
             </div>
         </div>    
@@ -174,8 +174,8 @@ function App() {
             <img src={rollingnew} alt="tienda digital" className="w-100 imagenProyecto" />
               <p className="container my-2 text-light text-center">Sitio web de noticias autoadministrable con React Node js y Mongo DB</p>
               <div className="container">
-              <button className="botonProyecto mx-3"><a  target="_blank" href="https://github.com/z4myk/RollingCodeNew/tree/master">Github</a></button>
-            <button className="botonProyecto"><a  target="_blank" href="https://rollingnewsg2.netlify.app/">Deploy</a></button>
+              <a  target="_blank" href="https://github.com/z4myk/RollingCodeNew/tree/master"><button className="botonProyecto mx-3 text-light">Github</button></a>
+            <a  target="_blank" href="https://rollingnewsg2.netlify.app/"><button className="botonProyecto text-light">Deploy</button></a>
               </div>
             </div>
         </div>   
@@ -189,6 +189,7 @@ function App() {
         
         <section className="row "> 
           <h2 className="text-center my-5 " id="contactame">Contáctame</h2>
+          <p className="text-center">Podes enviarme un mensaje, ya sea para solicitar un proyecto, para contratarme, sugerir alguna mejora o incluso saludarme.</p>
           <div className="d-flex justify-content-around">
         <hr className="w-25"/>
         <hr className="w-25"/>
