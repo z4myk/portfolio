@@ -228,6 +228,18 @@ button a:hover {
  .linka{
    all: unset;
  }
+ 
+html::-webkit-scrollbar{
+  background-color: #191a19 !important;
+  width: 10px;
+  
+}
+html::-webkit-scrollbar-thumb{
+  background-color: #f09819 !important;
+  outline: 1px solid slategrey !important;
+  width: 10px;
+}
+
 
  @media all and (min-width: 360px) and (max-width: 640px)  {
 
