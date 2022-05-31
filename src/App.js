@@ -151,7 +151,7 @@ function App() {
         <div className="cardcito mx-3 mb-3">
             <div className="card2">
               <img src={eccomerce} alt="tienda digital" className="w-100 imagenProyecto" />
-              <p className="container my-2 text-light text-center">E-ccomerce desarrollado con React, Bootstrap y auth0 para la autenticación</p>
+              <p className="container my-2 text-light text-center">E-ccomerce con autenticación desarrollado con React, Bootstrap, y auth0</p>
               <div className="container">
               <button className="botonProyecto mx-3"><a  target="_blank" href="https://github.com/z4myk/e-ccomerce-reactjs">Github</a></button>
             <button className="botonProyecto"><a  target="_blank" href="https://eccomercesam.netlify.app/">Deploy</a></button>
