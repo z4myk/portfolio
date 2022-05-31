@@ -136,7 +136,6 @@ a{
    border-radius: 20px 20px 0 0;
  }
 
- /* From uiverse.io by @nikk7007 */
 .botonProyecto {
   padding: 0.8em 1.8em;
   border: 2px solid #ff9900;
@@ -197,8 +196,6 @@ button a:hover {
     box-shadow: none;
   
  }
-
-
 
  .botoncito {
   background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%)

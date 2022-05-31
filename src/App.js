@@ -26,7 +26,6 @@ function App() {
 
     emailjs.sendForm('service_g5hfj0e', 'template_g0smync', e.target, 'user_uwxcdlUFTlwvmAedFHN2X')
       .then((result) => {
-          console.log(result.text);
           Swal.fire({
             position: 'top-end',
             icon: 'success',
@@ -194,16 +193,16 @@ function App() {
         <hr className="w-25"/>
         <hr className="w-25"/>
         </div>
-        <div className="col-md-3 col-sm-12 text-center">
-         <a target="_blank" href="https://www.linkedin.com/in/sebastianmosquera/" className="linka"><button class="botoncito w-100 my-5">Linkedin</button></a>
+        <div className="col-md-6 col-sm-12 text-center">
+         <a target="_blank" href="https://www.linkedin.com/in/sebastianmosquera/" className="linka"><button class="botoncito w-75 my-5">Linkedin</button></a>
         
-        <a target="_blank" href="https://github.com/z4myk" className="linka"><button class="botoncito w-100 my-5">Github</button></a> 
+        <a target="_blank" href="https://github.com/z4myk" className="linka"><button class="botoncito w-75 my-5">Github</button></a> 
         
-        <a href="mailto:sebimosquera@gmail.com" className="linka"><button class="botoncito w-100"> Email</button></a>
+        <a href="mailto:sebimosquera@gmail.com" className="linka"><button class="botoncito w-75"> Email</button></a>
  
 
         </div>
-        <form className="container col-md-9 col-sm-12 my-3" onSubmit={sendEmail}>
+        <form className="container col-md-6 col-sm-12 my-3  " onSubmit={sendEmail}>
         <div className="mb-3">
         <label for="exampleFormControlInput1" className="form-label">Nombre</label>
         <input type="text" className="form-control bg-dark text-light inputForm shadow-none w-75" id="exampleFormControlInput1" name="name" placeholder="Nombre" required/>
