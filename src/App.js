@@ -1,4 +1,6 @@
 import "./App.css";
+import React, {useRef} from 'react'
+import emailjs from "emailjs-com"
 import { Navbar } from "./components/Navbar";
 import CV from "./assets/SebastianArielMosquera-CV.pdf";
 import foto from "./assets/foto.svg";
@@ -17,10 +19,31 @@ import eccomerce from "./assets/eccomerce.png"
 import git from "./assets/git.png"
 import veterinarycrud from './assets/veterinarycrud.png'
 import rollingnew from './assets/rollingnew.png'
+import Swal from 'sweetalert2'
 function App() {
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_g5hfj0e', 'template_g0smync', e.target, 'user_uwxcdlUFTlwvmAedFHN2X')
+      .then((result) => {
+          console.log(result.text);
+          Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: 'El email se a enviado con exito!',
+            showConfirmButton: false,
+            timer: 1500
+          })
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+  };
+
   return (
-    <div className="App">
+    <>
       <Navbar />
+    <div className="App container">
       <section className="my-5 container">
         <div className="row">
           <div className="col-md-7 col-sm-12 mb-4">
@@ -52,7 +75,7 @@ function App() {
         <h2 className="text-center " id="sobreMi">
           Sobre Mi
         </h2>
-        <div className="d-flex justify-content-around">
+        <div className="d-flex justify-content-around mb-5">
         <hr className="w-25"/>
         <hr className="w-25"/>
         </div>
@@ -70,7 +93,7 @@ function App() {
         <hr className="w-25"/>
         </div>
         <div className="responsiveMobile">
-          <div className="d-flex flex-wrap justify-content-around mx-5 ">
+          <div className="d-flex flex-wrap gap-3 justify-content-center mx-5 ">
             <div className="glass mb-3">
               <img  src={html} className=" logoSkill"  />
               <span className="mx-4">HTML5</span>
@@ -91,23 +114,18 @@ function App() {
             <img  src={react} className=" logoSkill"  />
             <span className="mx-4">React</span>
             </div>  
-
             <div className=" glass mb-3">
             <img  src={git} className="logoSkill"  />
             <span className="mx-3">GIT</span>
             </div>
-
-
             <div className=" glass mb-3">
             <img  src={nodejs} className=" javascript"  />
             <span>Node JS</span>
             </div>  
-
             <div className=" glass mb-3">
             <img  src={mongodb} className=" mongo"  />
             <span>Mongo DB</span>
             </div>
-
             <div className=" glass mb-3">
             <img  src={firebase} className=" firebase"  />
             <span>Firebase</span>
@@ -121,8 +139,8 @@ function App() {
             <span>Cinema 4D</span>
             </div>
           </div>
-
         </div>
+        </section>
         <section className="container">
           <h2 className="my-5 mb-2 text-center" id="proyectos">Proyectos</h2>
           <div className="d-flex justify-content-around">
@@ -170,7 +188,7 @@ function App() {
         </div>
         </section>
         
-        <section className="row"> 
+        <section className="row "> 
           <h2 className="text-center my-5 " id="contactame">Contáctame</h2>
           <div className="d-flex justify-content-around">
         <hr className="w-25"/>
@@ -185,48 +203,25 @@ function App() {
  
 
         </div>
-        <form className="container col-md-8 col-sm-12 my-3">
+        <form className="container col-md-9 col-sm-12 my-3" onSubmit={sendEmail}>
         <div className="mb-3">
         <label for="exampleFormControlInput1" className="form-label">Nombre</label>
-        <input type="text" className="form-control bg-dark text-light inputForm shadow-none" id="exampleFormControlInput1" placeholder="Nombre" required/>
+        <input type="text" className="form-control bg-dark text-light inputForm shadow-none w-75" id="exampleFormControlInput1" name="name" placeholder="Nombre" required/>
         </div>
         <div className="mb-3">
         <label for="exampleFormControlInput1" className="form-label">Email</label>
-        <input type="email" className="form-control bg-dark inputForm shadow-none text-light" id="exampleFormControlInput1" placeholder="name@example.com" required />
+        <input type="email" className="form-control bg-dark inputForm shadow-none text-light w-75" id="exampleFormControlInput1" name="email" placeholder="name@example.com" required />
         </div>
         <div className="mb-3 ">
         <label for="exampleFormControlTextarea1" className="form-label">Mensaje</label>
-        <textarea className="form-control bg-dark text-light w-100 inputForm shadow-none" id="exampleFormControlTextarea1" rows="4" required></textarea>
+        <textarea className="form-control bg-dark text-light inputForm shadow-none w-75" id="exampleFormControlTextarea1" rows="4" name="message" placeholder="Escriba su mensaje..." required></textarea>
         </div>
-        <button className="botonProyecto">Enviar</button>
-        
+        <button className="botonProyecto text-light" value="Send" type="submit">Enviar</button>
         </form>
-        
-        </section>
-
-        {/* <div className="glass border-rounded ">
-            <div className="mb-3">
-            <img  src={html} className=" logoSkill "  />
-            <p>HTML</p>
-            <img  src={css} className=" logoSkill "  />
-            <p>CSS</p>
-            <img  src={bootstrap} className=" logoSkill "  />
-            <p>Bootstrap</p>
-            <img  src={javascript} className=" logoSkill"  />
-            <p>Javascript</p>
-            </div>
-            <img  src={react} className=" logoSkill"  />
-            <p>React</p>
-            <img  src={nodejs} className=" logoSkill"  />
-            <p>Node Js</p>
-            <img  src={mongodb} className=" logoSkill"  />
-            <p>Mongo DB</p>
-            <img  src={firebase} className=" logoSkill"  />
-            <p>Firebase</p>
-          </div> */}
       </section>
-      <Footer />
     </div>
+      <Footer />
+    </>
   );
 }
 

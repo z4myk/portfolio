@@ -72,6 +72,11 @@ a{
   width: 400px;
   border:1px solid #f09819;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  cursor: pointer;
+}
+
+.glass:hover{
+  filter: opacity(60%);
 }
 
 .logoSkill{
@@ -216,7 +221,6 @@ button a:hover {
  
  .botoncito:hover {
   background-position: right center;
-  /* change the direction of the change here */
   color: white;
   text-decoration: none;
  }
