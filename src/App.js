@@ -43,7 +43,7 @@ function App() {
     <>
       <Navbar />
     <div className="App container">
-      <section className="my-5 container">
+      <section className="my-5 container pt-5 ">
         <div className="row">
           <div className="col-md-7 col-sm-12 mb-4">
             <h2 className="text-light effect">Hola! Soy Sebastián Mosquera</h2>
@@ -80,7 +80,7 @@ function App() {
         </div>
         
         <p className="about">
-          Hola! mi nombre es Sebastián Ariel Mosquera tengo 21 años soy un desarrollador de software apasionado por la tecnología, responsable, resiliente y autodidacta, motivado a seguir incrementando mis conocimientos para crecer profesionalmente, considero que la comunicación y el trabajo en equipo es esencial para poder crecer como desarrollador, aspiro a potenciar mis habilidades tecnicas y de liderazgo para en un futuro estar a cargo de un equipo y llevar adelante proyectos.
+          Hola! mi nombre es Sebastián Ariel Mosquera tengo 21 años soy un desarrollador de software apasionado por la tecnología, metódico, resiliente y autodidacta, motivado a seguir incrementando mis conocimientos para crecer profesionalmente, considero que la comunicación y el trabajo en equipo es esencial para poder crecer como desarrollador, aspiro a potenciar mis habilidades técnicas y de liderazgo para en un futuro estar a cargo de un equipo y llevar adelante proyectos.
         </p>
       </section>
       <section className=" mb-5  container">
@@ -142,7 +142,7 @@ function App() {
         </section>
         <section className="container">
           <h2 className="my-5 mb-2 text-center" id="proyectos">Proyectos</h2>
-          <div className="d-flex justify-content-around">
+          <div className="d-flex justify-content-around mb-5">
             <hr className="w-25"/>
             <hr className="w-25"/>
         </div>
@@ -162,7 +162,7 @@ function App() {
         <div className="cardcito mx-3 mb-3">
             <div className="card2">
             <img src={veterinarycrud} alt="tienda digital" className="w-100 imagenProyecto" />
-              <p className="container my-2 text-light text-center">Sistema de gestión de turnos para veterinaria CRUD con autenticación creado con React Bootstrap y Auth0</p>
+              <p className="container my-2 text-light text-center">Sistema de gestión de turnos para veterinaria CRUD con autenticación creado con React, Bootstrap y Auth0</p>
               <div className="container">
               <a  target="_blank" href="https://github.com/z4myk/crud-veterinary"><button className="botonProyecto mx-3 text-light">Github</button></a>
             <a  target="_blank" href="https://veterinarycrud.netlify.app/"><button className="botonProyecto text-light">Deploy</button></a>
@@ -172,29 +172,29 @@ function App() {
         <div className="cardcito mx-3 mb-3">
             <div className="card2">
             <img src={rollingnew} alt="tienda digital" className="w-100 imagenProyecto" />
-              <p className="container my-2 text-light text-center">Sitio web de noticias autoadministrable con React Node js y Mongo DB</p>
+              <p className="container my-2 text-light text-center">Sitio web de noticias autoadministrable con React, Node js, express y Mongo DB</p>
               <div className="container">
               <a  target="_blank" href="https://github.com/z4myk/RollingCodeNew/tree/master"><button className="botonProyecto mx-3 text-light">Github</button></a>
             <a  target="_blank" href="https://rollingnewsg2.netlify.app/"><button className="botonProyecto text-light">Deploy</button></a>
               </div>
             </div>
         </div>   
-        <div className="cardcito mx-3">
+        {/* <div className="cardcito mx-3">
             <div className="card2">
             </div>
-        </div>    
+        </div>     */}
 
         </div>
         </section>
         
-        <section className="row "> 
+        <section className="row justify-content-center "> 
           <h2 className="text-center my-5 " id="contactame">Contáctame</h2>
           <p className="text-center">Podes enviarme un mensaje, ya sea para solicitar un proyecto, para contratarme, sugerir alguna mejora o incluso saludarme.</p>
           <div className="d-flex justify-content-around">
         <hr className="w-25"/>
         <hr className="w-25"/>
         </div>
-        <div className="col-md-6 col-sm-12 text-center">
+        <div className="col-md-6 col-sm-12 justify-content-center text-center">
          <a target="_blank" href="https://www.linkedin.com/in/sebastianmosquera/" className="linka"><button class="botoncito w-75 my-5">Linkedin</button></a>
         
         <a target="_blank" href="https://github.com/z4myk" className="linka"><button class="botoncito w-75 my-5">Github</button></a> 
@@ -203,7 +203,7 @@ function App() {
  
 
         </div>
-        <form className="container col-md-6 col-sm-12 my-3  " onSubmit={sendEmail}>
+        <form className="container col-md-6 col-sm-12 my-3 justify-content-center" onSubmit={sendEmail}>
         <div className="mb-3">
         <label for="exampleFormControlInput1" className="form-label">Nombre</label>
         <input type="text" className="form-control bg-dark text-light inputForm shadow-none w-75" id="exampleFormControlInput1" name="name" placeholder="Nombre" required/>
