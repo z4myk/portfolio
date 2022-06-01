@@ -80,7 +80,7 @@ function App() {
         </div>
         
         <p className="about">
-          Hola! mi nombre es Sebastián Ariel Mosquera tengo 21 años soy un desarrollador de software apasionado por la tecnología, metódico, resiliente y autodidacta, motivado a seguir incrementando mis conocimientos para crecer profesionalmente, considero que la comunicación y el trabajo en equipo es esencial para poder crecer como desarrollador, aspiro a potenciar mis habilidades técnicas y de liderazgo para en un futuro estar a cargo de un equipo y llevar adelante proyectos.
+        Hola! Mi nombre es Sebastián Ariel Mosquera, tengo 21 años y soy un desarrollador de software apasionado por la tecnología, metódico, resiliente y autodidacta. Motivado a seguir incrementando mis conocimientos para crecer profesionalmente, considero que la comunicación y el trabajo en equipo es esencial para poder crecer como desarrollador. Aspiro a potenciar mis habilidades técnicas y de liderazgo para, en un futuro, estar a cargo de un equipo y llevar adelante proyectos.
         </p>
       </section>
       <section className=" mb-5  container">
