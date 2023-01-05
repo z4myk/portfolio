@@ -25,7 +25,7 @@ export const Skills = () => {
         </div>
         <div className="responsiveMobile">
           <div className="d-flex flex-wrap gap-3 justify-content-center mx-5 ">
-            <div className="glass mb-3">
+            <div className=" glass mb-3">
               <img  src={html} className=" logoSkill"  alt="html" />
               <span className="mx-4">HTML5</span>
             </div>
