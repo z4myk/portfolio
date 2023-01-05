@@ -2,6 +2,7 @@ import React from 'react'
 import eccomerce from "../assets/eccomerce.png"
 import veterinarycrud from '../assets/veterinarycrud.png'
 import rollingnew from '../assets/rollingnew.png'
+import heroapp from '../assets/heroapp.png'
 export const Proyects = () => {
     return (
         <div>
@@ -46,11 +47,11 @@ export const Proyects = () => {
         </div>   
         <div className="cardcito mx-3 mb-3">
             <div className="card2">
-            <img src={rollingnew} alt="tienda digital" className="w-100 imagenProyecto" />
-              <p className="container my-2 text-light text-center">Sitio web de noticias autoadministrable con React, Node js, express y Mongo DB</p>
+            <img src={heroapp} alt="tienda digital" className="w-100 imagenProyecto" />
+              <p className="container my-2 text-light text-center">Sitio web buscador de heroes con React, redux y firebase.</p>
               <div className="container">
-              <a  target="_blank"  rel="noreferrer" href="https://github.com/z4myk/RollingCodeNew/tree/master"><button className="botonProyecto mx-3 text-light">Github</button></a>
-            <a  target="_blank"   rel="noreferrer" href="https://rollingnewsg2.netlify.app/"><button className="botonProyecto text-light">Deploy</button></a>
+              <a  target="_blank"  rel="noreferrer" href="https://github.com/z4myk/HeroApp"><button className="botonProyecto mx-3 text-light">Github</button></a>
+            <a  target="_blank"   rel="noreferrer" href="https://reactheroapp.netlify.app/"><button className="botonProyecto text-light">Deploy</button></a>
               </div>
             </div>
         </div>   
