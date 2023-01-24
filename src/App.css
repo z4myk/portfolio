@@ -5,6 +5,7 @@ html{
 body{
   background-color: #191a19 !important;
   scroll-behavior: smooth;
+  overflow-x: hidden !important;
 }
 .about{
   font-size: 20px;

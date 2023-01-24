@@ -22,7 +22,7 @@ export const Contact = () => {
       };
 
     return (
-        <div>
+        <div data-aos="fade-down" data-aos-duration="1000">
              <section className="row justify-content-center "> 
           <h2 className="text-center my-5 " id="contactame">Contáctame</h2>
           <p className="text-center">Podés enviarme un mensaje, ya sea para solicitar un proyecto, para contratarme, sugerir alguna mejora o incluso saludarme.</p>

@@ -3,7 +3,7 @@ import React from "react";
 export const About = () => {
   return (
     <div>
-      <section className="container mb-5">
+      <section className="container mb-5"   data-aos="fade-right" data-aos-duration="1000" >
         <h2 className="text-center " id="sobreMi">
           Sobre Mi
         </h2>

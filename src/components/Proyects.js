@@ -6,7 +6,7 @@ import heroapp from "../assets/heroapp.png";
 export const Proyects = () => {
   return (
     <div>
-      <section className="container">
+      <section className="container" data-aos="fade-down">
         <h2 className="my-5 mb-2 text-center" id="proyectos">
           Proyectos
         </h2>
