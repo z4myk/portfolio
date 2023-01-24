@@ -4,7 +4,7 @@ import foto from "../assets/foto.svg";
 export const Header = () => {
     return (
         <div>
-            <section className="my-5 container pt-5 ">
+            <section className="my-5 container pt-5">
         <div className="row">
           <div className="col-md-7 col-sm-12 mb-4">
             <h2 className="text-light effect">Hola! Soy Sebastián Mosquera</h2>

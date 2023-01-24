@@ -14,7 +14,7 @@ export const Skills = () => {
 
     
     return (
-        <div>
+        <div >
              <section className=" mb-5  container">
         <h2 className="text-center mb-3" id="Skills">
           Skills
