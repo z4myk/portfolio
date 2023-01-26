@@ -3,11 +3,13 @@ import eccomerce from "../assets/eccomerce.png";
 import veterinarycrud from "../assets/veterinarycrud.png";
 import rollingnew from "../assets/rollingnew.png";
 import heroapp from "../assets/heroapp.png";
+import imagen1 from '../assets/item1.png'
 export const Proyects = () => {
   return (
     <div>
+    
       <section className="container" data-aos="fade-down">
-        <h2 className="my-5 mb-2 text-center" id="proyectos">
+        <h2 className=" mb-2 text-center" id="proyectos">
           Proyectos
         </h2>
         <div className="d-flex justify-content-around mb-5">
@@ -138,10 +140,6 @@ export const Proyects = () => {
               </div>
             </div>
           </div>
-          {/* <div className="cardcito mx-3">
-            <div className="card2">
-            </div>
-        </div>     */}
         </div>
       </section>
     </div>

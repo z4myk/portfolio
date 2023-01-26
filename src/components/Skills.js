@@ -10,12 +10,16 @@ import firebase from "../assets/firebase.png";
 import cinema from "../assets/cinema.png"
 import photoshop from "../assets/photoshop.png"
 import git from "../assets/git.png"
+import imagen1 from '../assets/item1.png'
 export const Skills = () => {
 
     
     return (
-        <div   data-aos="fade-right" >
-             <section className=" mb-5  container">
+        <div>
+             <section className=" mb-5 mt-5 container">
+           <span className=" d-flex justify-content-start" data-aos="fade-down" data-aos-duration="1000">
+          <img src={imagen1} alt="imagen"  className="itemPagina"/>
+        </span>
         <h2 className="text-center mb-3" id="Skills">
           Skills
         </h2>
@@ -23,55 +27,58 @@ export const Skills = () => {
         <hr className="w-25"/>
         <hr className="w-25"/>
         </div>
-        <div className="responsiveMobile">
-          <div className="d-flex flex-wrap gap-3 justify-content-between mx-5 ">
-            <div className=" glass mb-3 mb-2">
+        <div className="responsiveMobile container">
+          <div className="d-flex flex-wrap gap-5 justify-content-center mx-5 text-center ">
+            <div className=" mb-3">
               <img  src={html} className=" logoSkill"  alt="html" />
-              <span className="mx-4">HTML5</span>
+              <p className="mt-1">HTML5</p>
             </div>
-            <div className=" glass mb-3 mb-2">
+            <div className="mb-3 ">
               <img  src={css} className=" logoSkill " alt="css" />
-              <span className="mx-4">CSS</span>
+              <p className="mt-1">CSS</p>
             </div>
-            <div className=" glass mb-3 mb-2">
+            <div className="  mb-3 ">
               <img  src={bootstrap} className=" logoSkill " alt="bootstrap" />
-              <span className="mx-4">Bootstrap</span>
+              <p className="mt-3">Bootstrap</p>
             </div>
-            <div className=" glass mb-3 mb-2"> 
+            <div className="  mb-3 "> 
             <img  src={javascript} className=" javascript" alt="javascript"  />
-            <span className="mx-1">javascript</span>
+            <p className="">javascript</p>
             </div>
-            <div className="  glass mb-3 mb-2">
+            <div className="   mb-3 ">
             <img  src={react} className=" logoSkill" alt="react" />
-            <span className="mx-4">React</span>
+            <p className="mt-2">React</p>
             </div>  
-            <div className=" glass mb-3 mb-2">
+            <div className="  mb-3">
             <img  src={git} className="logoSkill"  alt="git" />
-            <span className="mx-3">GIT</span>
+            <p className="mx-3">GIT</p>
             </div>
-            <div className=" glass mb-3 mb-2">
+            <div className="  mb-3">
             <img  src={nodejs} className=" javascript" alt="javascript"  />
-            <span>Node JS</span>
+            <p>Node JS</p>
             </div>  
-            <div className=" glass mb-3 mb-2">
-            <img  src={mongodb} className=" mongo" alt="mongodb" />
-            <span>Mongo DB</span>
+            <div className="  mb-3">
+            <img  src={mongodb} className=" mongo mt-3" alt="mongodb" />
+            <p className="mt-4">Mongo DB</p>
             </div>
-            <div className=" glass mb-3 mb-2">
+            <div className="  mb-3">
             <img  src={firebase} className=" firebase" alt="firebase" />
-            <span>Firebase</span>
+            <p className="mt-1">Firebase</p>
             </div>
-            <div className=" glass mb-5">
+            <div className="mb-3">
             <img  src={photoshop} className=" photoshop"  alt="photoshop cs6" />
-            <span className="mx-4">Photoshop</span>
+            <p className="mt-2">Photoshop</p>
             </div>  
-            <div className=" glass mb-3 mb-5">
+            <div className="  mb-3">
             <img  src={cinema} className="cinema" alt="cinema4d"  />
-            <span>Cinema 4D</span>
+            <p className="mt-2">Cinema 4D</p>
             </div>
           </div>
         </div>
         </section>
+        <span className=" d-flex justify-content-end container" data-aos="fade-down" data-aos-duration="1000">
+          <img src={imagen1} alt="imagen"  className="itemPagina"/>
+        </span>
         </div>
     )
 }

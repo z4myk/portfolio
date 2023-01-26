@@ -1,9 +1,9 @@
 import React from "react";
-
+import imagen1 from '../assets/item1.png'
 export const About = () => {
   return (
     <div>
-      <section className="container mb-5"   data-aos="fade-right" data-aos-duration="1000" >
+      <section className="container mb-5 mt-5"   data-aos="fade-right" data-aos-duration="1000" >
         <h2 className="text-center " id="sobreMi">
           Sobre Mi
         </h2>
@@ -11,8 +11,8 @@ export const About = () => {
           <hr className="w-25" />
           <hr className="w-25" />
         </div>
-
-        <p className="about glassAbout">
+        
+        <p className="about">
           Hola! Mi nombre es Sebastián Ariel Mosquera, tengo 21 años y soy un
           desarrollador de software apasionado por la tecnología, metódico,
           resiliente y autodidacta. Motivado a seguir incrementando mis

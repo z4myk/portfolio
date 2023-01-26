@@ -6,6 +6,7 @@ body{
   background-color: #191a19 !important;
   scroll-behavior: smooth;
   overflow-x: hidden !important;
+  font-family: 'Sofia Sans', sans-serif !important;
 }
 .about{
   font-size: 20px;
@@ -19,7 +20,7 @@ body{
   
   white-space: nowrap;
   border-right: 4px solid;
-  width: 25ch;
+  width: 15ch;
   animation: typing 2s steps(18), blink .5s infinite step-end alternate;
   overflow: hidden;
 }
@@ -78,13 +79,12 @@ a{
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   cursor: pointer;
 }
-
 .glass:hover{
   filter: opacity(60%);
 }
 
 .glassAbout{
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  background: linear-gradient(135deg, rgba(243, 158, 0, 0.1), rgba(255, 255, 255, 0));
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
@@ -93,27 +93,27 @@ a{
 }
 
 .logoSkill{
-  width: 50px;
+  width: 100px;
 }
 
 .javascript{
-  width: 70px;
+  width: 170px;
 }
 .firebase{
-  width: 130px;
+  width: 80px;
 }
 
 .photoshop{
-  width: 35px;
+  width: 90px;
 }
 
 .mongo{
-  width: 150px;
-  padding: 5px;
+  width: 200px;
+  
 }
 
 .cinema{
-  width: 40px;
+  width: 180px;
 }
 
 
@@ -245,11 +245,13 @@ button a:hover {
  
 html::-webkit-scrollbar{
   background-color: #191a19 !important;
+  border-radius: 15x;
   width: 10px;
   
 }
 html::-webkit-scrollbar-thumb{
   background-color: #f09819 !important;
+  border-radius:15px;
   outline: 1px solid slategrey !important;
   width: 10px;
 }
@@ -258,14 +260,37 @@ html::-webkit-scrollbar-thumb{
  @media all and (min-width: 360px) and (max-width: 640px)  {
 
   .glass{
-      width: 200px;
-      
+      width: 280px;
       
   }
 
+}
+
+.logosm{
+  width: 40px;
+}
+
+.logoRedesSociales{
+ cursor: pointer;
+}
+.logoRedesSociales:hover{
+  cursor: pointer;
+  color: white;
 
 }
 
+.linkLogo{
+  text-decoration: none;
+  color: #f09819;
+}
+.linkLogo:hover{
+  color: white;
+}
+
+.itemPagina{
+  width: 200px;
+  cursor: pointer;
+}
 
 .wrapper2{
   background: linear-gradient(
