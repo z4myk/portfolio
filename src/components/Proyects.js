@@ -3,7 +3,6 @@ import eccomerce from "../assets/eccomerce.png";
 import veterinarycrud from "../assets/veterinarycrud.png";
 import rollingnew from "../assets/rollingnew.png";
 import heroapp from "../assets/heroapp.png";
-import imagen1 from '../assets/item1.png'
 export const Proyects = () => {
   return (
     <div>

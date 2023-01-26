@@ -1,14 +1,11 @@
 import React from 'react'
 import CV from "../assets/SebastianArielMosquera-CV.pdf";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import smimagen from '../assets/smimagen.png'
-import imagen1 from '../assets/item1.png'
 import imagenHeader from '../assets/imagenHeader.svg'
 import {faFacebook, faGithub, faInstagram, faLinkedin, faTwitter} from '@fortawesome/free-brands-svg-icons'
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 
-
-import foto from "../assets/foto.svg";
 export const Header = () => {
     return (
         <div>
@@ -26,7 +23,7 @@ export const Header = () => {
               href={CV}
             >
               <button className="botoncito">
-                Descargar CV <span></span>
+                 <span><FontAwesomeIcon icon={faDownload} /> Descargar CV </span>
               </button>
             </a>
             <div className=" mt-4">
@@ -41,7 +38,7 @@ export const Header = () => {
           <div className="col-md-5 col-sm-12 mb-5">
             <img
               src={imagenHeader}
-              className="w-100 my-1 imagen animate__animated animate__fadeInRightBig animate__delay-1s"
+              className="w-100 my-1 imagen animate__animated animate__fadeInRightBig animate__delay-1s mt-4"
               alt="imagen de software"
               
             />

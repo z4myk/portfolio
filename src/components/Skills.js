@@ -15,7 +15,7 @@ export const Skills = () => {
 
     
     return (
-        <div>
+        <div data-aos="fade-down" data-aos-duration="1000">
              <section className=" mb-5 mt-5 container">
            <span className=" d-flex justify-content-start" data-aos="fade-down" data-aos-duration="1000">
           <img src={imagen1} alt="imagen"  className="itemPagina"/>

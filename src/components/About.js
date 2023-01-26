@@ -1,5 +1,4 @@
 import React from "react";
-import imagen1 from '../assets/item1.png'
 export const About = () => {
   return (
     <div>

@@ -91,7 +91,6 @@ a{
   padding: 30px;
  border-radius: 5px;
 }
-
 .logoSkill{
   width: 100px;
 }
@@ -252,7 +251,7 @@ html::-webkit-scrollbar{
 html::-webkit-scrollbar-thumb{
   background-color: #f09819 !important;
   border-radius:15px;
-  outline: 1px solid slategrey !important;
+  outline: 1px solid rgb(255, 255, 255) !important;
   width: 10px;
 }
 
