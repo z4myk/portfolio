@@ -289,7 +289,27 @@ html::-webkit-scrollbar-thumb{
 .itemPagina{
   width: 200px;
   cursor: pointer;
+  animation: movimiento 2.5s linear infinite;
 }
+
+@keyframes movimiento{
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(20px);
+  }
+  100%{
+    transform: translateY(0)
+  }
+}
+
+.effectSkills:hover{
+  transition: 0.5s;
+  cursor: pointer;
+filter: grayscale(90%)
+}
+
 
 .wrapper2{
   background: linear-gradient(

@@ -30,47 +30,47 @@ export const Skills = () => {
         <div className="responsiveMobile container">
           <div className="d-flex flex-wrap gap-5 justify-content-center mx-5 text-center ">
             <div className=" mb-3">
-              <img  src={html} className=" logoSkill"  alt="html" />
+              <img  src={html} className=" logoSkill  effectSkills"  alt="html" />
               <p className="mt-1">HTML5</p>
             </div>
             <div className="mb-3 ">
-              <img  src={css} className=" logoSkill " alt="css" />
+              <img  src={css} className=" logoSkill  effectSkills" alt="css" />
               <p className="mt-1">CSS</p>
             </div>
             <div className="  mb-3 ">
-              <img  src={bootstrap} className=" logoSkill " alt="bootstrap" />
+              <img  src={bootstrap} className=" logoSkill  effectSkills" alt="bootstrap" />
               <p className="mt-3">Bootstrap</p>
             </div>
             <div className="  mb-3 "> 
-            <img  src={javascript} className=" javascript" alt="javascript"  />
+            <img  src={javascript} className=" javascript effectSkills" alt="javascript"  />
             <p className="">javascript</p>
             </div>
             <div className="   mb-3 ">
-            <img  src={react} className=" logoSkill" alt="react" />
+            <img  src={react} className=" logoSkill effectSkills" alt="react" />
             <p className="mt-2">React</p>
             </div>  
             <div className="  mb-3">
-            <img  src={git} className="logoSkill"  alt="git" />
+            <img  src={git} className="logoSkill effectSkills"  alt="git" />
             <p className="mx-3">GIT</p>
             </div>
             <div className="  mb-3">
-            <img  src={nodejs} className=" javascript" alt="javascript"  />
+            <img  src={nodejs} className=" javascript effectSkills" alt="javascript"  />
             <p>Node JS</p>
             </div>  
             <div className="  mb-3">
-            <img  src={mongodb} className=" mongo mt-3" alt="mongodb" />
+            <img  src={mongodb} className=" mongo mt-3 effectSkills" alt="mongodb" />
             <p className="mt-4">Mongo DB</p>
             </div>
             <div className="  mb-3">
-            <img  src={firebase} className=" firebase" alt="firebase" />
+            <img  src={firebase} className=" firebase effectSkills" alt="firebase" />
             <p className="mt-1">Firebase</p>
             </div>
             <div className="mb-3">
-            <img  src={photoshop} className=" photoshop"  alt="photoshop cs6" />
+            <img  src={photoshop} className=" photoshop effectSkills"  alt="photoshop cs6" />
             <p className="mt-2">Photoshop</p>
             </div>  
             <div className="  mb-3">
-            <img  src={cinema} className="cinema" alt="cinema4d"  />
+            <img  src={cinema} className="cinema effectSkills" alt="cinema4d"  />
             <p className="mt-2">Cinema 4D</p>
             </div>
           </div>

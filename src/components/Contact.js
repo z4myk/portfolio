@@ -2,8 +2,6 @@ import React from 'react'
 import emailjs from "emailjs-com"
 import Swal from 'sweetalert2'
 import imagen1 from '../assets/item1.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 export const Contact = () => {
 
     const sendEmail = (e) => {
