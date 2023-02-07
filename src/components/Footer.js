@@ -11,7 +11,7 @@ export const Footer = () => {
   return (
     <>
       <div className="p-5 bg-dark text-light text-center">
-        <p className="small">Desarrollado por Sebastián Ariel Mosquera ❤️ </p>
+        <p className="small">Desarrollado por Sebastián Ariel Mosquera</p>
         <div className="d-flex justify-content-end">
           <a
             href="https://www.facebook.com/zev1t.cs/"
