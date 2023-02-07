@@ -16,10 +16,10 @@ export const Skills = () => {
     
     return (
         <div data-aos="fade-down" data-aos-duration="1000">
-             <section className=" mb-5 mt-5 container">
            <span className=" d-flex justify-content-start" data-aos="fade-down" data-aos-duration="1000">
           <img src={imagen1} alt="imagen"  className="itemPagina"/>
         </span>
+             <section className=" mb-5 mt-5 container">
         <h2 className="text-center mb-3" id="Skills">
           Skills
         </h2>
@@ -76,7 +76,7 @@ export const Skills = () => {
           </div>
         </div>
         </section>
-        <span className=" d-flex justify-content-end container" data-aos="fade-down" data-aos-duration="1000">
+        <span className=" d-flex justify-content-end" data-aos="fade-down" data-aos-duration="1000">
           <img src={imagen1} alt="imagen"  className="itemPagina"/>
         </span>
         </div>

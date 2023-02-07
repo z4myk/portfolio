@@ -287,9 +287,23 @@ html::-webkit-scrollbar-thumb{
 }
 
 .itemPagina{
-  width: 200px;
+  width: 110px;
   cursor: pointer;
-  animation: movimiento 2.5s linear infinite;
+}
+
+.itemPagina:hover{
+filter: grayscale(70%);
+ -webkit-transform: rotate(360deg);
+ transition: 2s ease-in-out;
+
+}
+
+@keyframes girar{
+  from{
+    transform: rotate(360deg);
+  }to{
+    transform:rotate(360deg);
+  }
 }
 
 @keyframes movimiento{

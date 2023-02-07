@@ -24,7 +24,7 @@ export const Contact = () => {
 
     return (
         <div data-aos="fade-down" data-aos-duration="1000">
-            <span className=" d-flex justify-content-start container">
+            <span className=" d-flex justify-content-start">
           <img src={imagen1} alt="imagen"  className="itemPagina"/>
         </span>
              <section className="row justify-content-center mx-5 "> 
