@@ -3,6 +3,7 @@ import eccomerce from "../assets/eccomerce.png";
 import veterinarycrud from "../assets/veterinarycrud.png";
 import rollingnew from "../assets/rollingnew.png";
 import heroapp from "../assets/heroapp.png";
+import aintechapp from "../assets/aintechfoto.png";
 export const Proyects = () => {
   return (
     <div>
@@ -133,6 +134,37 @@ export const Proyects = () => {
                   target="_blank"
                   rel="noreferrer"
                   href="https://reactheroapp.netlify.app/"
+                >
+                  <button className="botonProyecto text-light">Deploy</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="cardcito mx-3 mb-3">
+            <div className="card2">
+          <h6><span class="badge bg-warning w-100 p-1 rounded text-dark">Proyecto Real</span></h6>
+              <img
+                src={aintechapp}
+                alt="sitio web para descargar juegos Aintech Online"
+                className="w-100 imagenProyecto"
+              />
+              <p className="container my-2 text-light text-center">
+                Sitio web para descargar juegos con React, Node js express y MongoDB.
+              </p>
+              <div className="container">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href=""
+                >
+                  <button className="botonProyecto mx-3 text-light">
+                    Github
+                  </button>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://aintech.online/"
                 >
                   <button className="botonProyecto text-light">Deploy</button>
                 </a>
