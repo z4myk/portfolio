@@ -142,14 +142,14 @@ export const Proyects = () => {
           </div>
           <div className="cardcito mx-3 mb-3">
             <div className="card2">
-          <h6><span class="badge bg-warning w-100 p-1 rounded text-dark">Proyecto Real</span></h6>
+          
               <img
                 src={aintechapp}
                 alt="sitio web para descargar juegos Aintech Online"
                 className="w-100 imagenProyecto"
               />
               <p className="container my-2 text-light text-center">
-                Sitio web para descargar juegos con React, Node js express y MongoDB.
+                plataforma web autoadministrable para descargar juegos con React, Node js express y MongoDB.
               </p>
               <div className="container">
                 <a
