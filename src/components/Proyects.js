@@ -4,6 +4,9 @@ import veterinarycrud from "../assets/veterinarycrud.png";
 import rollingnew from "../assets/rollingnew.png";
 import heroapp from "../assets/heroapp.png";
 import aintechapp from "../assets/aintechfoto.png";
+import zuka3d from "../assets/zuka3d.png";
+import vemox from "../assets/vemox.jpeg";
+import aintech from "../assets/aintech.jpeg";
 export const Proyects = () => {
   return (
     <div>
@@ -171,6 +174,105 @@ export const Proyects = () => {
               </div>
             </div>
           </div>
+
+          <div className="cardcito mx-3 mb-3">
+            <div className="card2">
+          
+              <img
+                src={zuka3d}
+                alt="Eccomerce para zuka 3d"
+                className="w-100 imagenProyecto"
+              />
+              <p className="container my-2 text-light text-center">
+                E-ccomerce para un negocio con React, Redux, Node js, express y MongoDB.
+              </p>
+              <div className="container">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href=""
+                >
+                  <button className="botonProyecto mx-3 text-light">
+                    Github
+                  </button>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.zuka3d.cl/"
+                >
+                  <button className="botonProyecto text-light">Deploy</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="cardcito mx-3 mb-3">
+            <div className="card2">
+          
+              <img
+                src={vemox}
+                alt="Eccomerce para zuka 3d"
+                className="w-100 imagenProyecto"
+              />
+              <p className="container my-2 text-light text-center">
+                Sitio web  para una empresa de hosting con HTML, CSS, Bootstrap.
+              </p>
+              <div className="container">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href=""
+                >
+                  <button className="botonProyecto mx-3 text-light">
+                    Github
+                  </button>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.vemoxhost.com/"
+                >
+                  <button className="botonProyecto text-light">Deploy</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="cardcito mx-3 mb-3">
+            <div className="card2">
+          
+              <img
+                src={aintech}
+                alt="Eccomerce para zuka 3d"
+                className="w-100 imagenProyecto"
+              />
+              <p className="container my-2 text-light text-center">
+                Landing Page desarrollado con React, Bootstrap.
+              </p>
+              <div className="container">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href=""
+                >
+                  <button className="botonProyecto mx-3 text-light">
+                    Github
+                  </button>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.aintech.com.ar/"
+                >
+                  <button className="botonProyecto text-light">Deploy</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
         </div>
       </section>
     </div>
