@@ -5,7 +5,9 @@ import rollingnew from "../assets/rollingnew.png";
 import heroapp from "../assets/heroapp.png";
 import aintechapp from "../assets/aintechfoto.png";
 import zuka3d from "../assets/zuka3d.png";
-import vemox from "../assets/vemox.jpeg";
+import vemox from "../assets/vemox.png";
+import chaos from "../assets/chaos.png";
+import goreboosting from "../assets/goreboosting.png";
 import aintech from "../assets/aintech.jpeg";
 export const Proyects = () => {
   return (
@@ -216,7 +218,7 @@ export const Proyects = () => {
                 className="w-100 imagenProyecto"
               />
               <p className="container my-2 text-light text-center">
-                Sitio web  para una empresa de hosting con HTML, CSS, Bootstrap.
+                Sitio web  para una empresa de hosting con React js, swiper, y Bootstrap.
               </p>
               <div className="container">
                 <a
@@ -231,7 +233,7 @@ export const Proyects = () => {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.vemoxhost.com/"
+                  href="https://vemoxhost.com/"
                 >
                   <button className="botonProyecto text-light">Deploy</button>
                 </a>
@@ -239,6 +241,70 @@ export const Proyects = () => {
             </div>
           </div>
 
+
+          <div className="cardcito mx-3 mb-3">
+            <div className="card2">
+          
+              <img
+                src={chaos}
+                alt="Eccomerce para zuka 3d"
+                className="w-100 imagenProyecto"
+              />
+              <p className="container my-2 text-light text-center">
+                E-ccomerce para una network de gaming con React js, node js, express y Mongo DB.
+              </p>
+              <div className="container">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href=""
+                >
+                  <button className="botonProyecto mx-3 text-light">
+                    Github
+                  </button>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href=""
+                >
+                  <button className="botonProyecto text-light">Deploy</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="cardcito mx-3 mb-3">
+            <div className="card2">
+          
+              <img
+                src={goreboosting}
+                alt="Eccomerce para zuka 3d"
+                className="w-100 imagenProyecto"
+              />
+              <p className="container my-2 text-light text-center">
+                One Page para un negocio de Eloobosting con React js y bootstrap.
+              </p>
+              <div className="container">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href=""
+                >
+                  <button className="botonProyecto mx-3 text-light">
+                    Github
+                  </button>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href=""
+                >
+                  <button className="botonProyecto text-light">Deploy</button>
+                </a>
+              </div>
+            </div>
+          </div>
 
           <div className="cardcito mx-3 mb-3">
             <div className="card2">

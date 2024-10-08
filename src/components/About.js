@@ -12,7 +12,7 @@ export const About = () => {
         </div>
         
         <p className="about">
-          Hola! Mi nombre es Sebastián Ariel Mosquera, tengo 22 años y soy un
+          Hola! Mi nombre es Sebastián Ariel Mosquera, tengo 23 años y soy un
           desarrollador de software apasionado por la tecnología, metódico,
           resiliente y autodidacta. Motivado a seguir incrementando mis
           conocimientos para crecer profesionalmente, considero que la
