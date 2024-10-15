@@ -283,7 +283,7 @@ export const Proyects = () => {
                 className="w-100 imagenProyecto"
               />
               <p className="container my-2 text-light text-center">
-                One Page para un negocio de Eloobosting con React js y bootstrap.
+                Sitio Web para un negocio de Eloobosting con React js y bootstrap.
               </p>
               <div className="container">
                 <a
