@@ -289,7 +289,7 @@ export const Proyects = () => {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href=""
+                  href="https://goreboostingv2.netlify.app/"
                 >
                   <button className="botonProyecto mx-3 text-light">
                     Github
