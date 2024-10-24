@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from "../assets/SebastianArielMosquera-CV.pdf";
+import CV from "../assets/SebastianMosquera-CV.pdf";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import imagenHeader from '../assets/imagenHeader.svg'
 import {faFacebook, faGithub, faInstagram, faLinkedin, faTwitter} from '@fortawesome/free-brands-svg-icons'
